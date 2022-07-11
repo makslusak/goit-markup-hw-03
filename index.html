@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Webstudio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link href="./styles/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Header================================================== -->
+        <header class="header">
+            <div class="header__container container">
+                <nav class="header__nav">
+                    <a href="./" class="links logo-link">Web<span class="logo-studio">studio</span>
+                    </a>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="./" class="links header__nav-link">Студия</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./portfolio.html" class="links header__nav-link curent-link">Портфолио</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="links header__nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__contact-list lists">
+                    <li class="header__contact-item">
+                        <a href="mailto:info@devstudio.com" class="links header__contact-link">info@devstudio.com</a>
+                    </li>
+                    <li class="header__contact-item">
+                        <a href="tel:+380961111111" class="links header__contact-link">+380961111111</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!--Main content========================================== -->
+        <main>
+            <!--Order service==================================== -->
+            <section class="hero">
+                <h1 class="hero__title">Эффективные решения<br />для вашего бизнеса</h1>
+                <button type="button" class="hero__button">Заказать услугу</button>
+            </section>
+            <!--Hilites========================================== -->
+            <section>
+                <h2 class="hilites__main-title">Отличия</h2>
+                <ul class="lists hilites__list">
+                    <li class="hilites__item">
+                        <h3 class="hilites__title">Внимание к деталям</h3>
+                        <p class="par hilites__par">
+                            Идейные соображения, а также начало повседневной работы по формированию
+                            позиции.
+                        </p>
+                    </li>
+                    <li class="hilites-item">
+                        <h3 class="hilites__title">Пунктуальность</h3>
+                        <p class="par hilites__par">
+                            Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.
+                        </p>
+                    </li>
+                    <li class="hilites-item">
+                        <h3 class="hilites__title">Планирование</h3>
+                        <p class="par hilites__par">
+                            Равным образом консультация с широким активом в значительной степени
+                            обуславливает.
+                        </p>
+                    </li>
+                    <li class="hilites-item">
+                        <h3 class="hilites__title">Современные технологии</h3>
+                        <p class="par hilites__par">
+                            Значимость этих проблем настолько очевидна, что реализация плановых
+                            заданий.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!--Tasks========================================== -->
+            <section class="tasks">
+                <h2 class="tasks__title titles">Чем мы занимаемся</h2>
+                <ul class="tasks__list lists">
+                    <li class="tasks__item">
+                        <img src="./images/box1.jpg" alt="Разработка програмного обеспечения" width="370"/>
+                    </li>
+                    <li class="tasks__item">
+                        <img src="./images/img.jpg" alt="Тестирование мобильного приложения" width="370"/>
+                    </li>
+                    <li class="tasks__item">
+                        <img src="./images/img(1).jpg" alt="Работа с цветами" width="370"/>
+                    </li>
+                </ul>
+            </section>
+            <!--Team============================================ -->
+            <section class="team__section">
+                <h2 class="team__title titles">Наша команда</h2>
+                <ul class="lists team__list">
+                    <li class="team__item">
+                        <img src="./images/img(2).jpg" alt="Дизайнер" width="270"/>
+                        <h3 class="team__member">Игорь Демьяненко</h3>
+                        <p class="par team__member-position" lang="en">Product Designer</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/img(3).jpg" alt="Разработчик" width="270"/>
+                        <h3 class="team__member">Ольга Репина</h3>
+                        <p class="par team__member-position" lang="en">Frontend Developer</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/img(4).jpg" alt="Маркетолог" width="270"/>
+                        <h3 class="team__member">Николай Тарасов</h3>
+                        <p class="par team__member-position" lang="en">Marketing</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/img(5).jpg" alt="Дизайнер" width="270"/>
+                        <h3 class="team__member">Михаил Ермаков</h3>
+                        <p class="par team__member-position" lang="en">UI Designer</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!--Footer=========================================== -->
+        <footer class="footer">
+            <div class="container">
+                <a href="./" class="links logo-link footer__logo">
+                    <span class="logo-web">Web</span><span class="footer-studio">studio</span>
+                </a>
+                <address>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com.ua/maps" target="_blank" rel="noopener noreferrer"
+                                class="links address footer__contact footer__contact-adress">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@example.com" class="links footer__contact">info@example.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+380961111111" class="links footer__contact">+380961111111</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>
