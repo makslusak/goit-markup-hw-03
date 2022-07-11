@@ -170,6 +170,7 @@ ul {
 /* Order service========================= */
 
 .hero {
+    padding: 200px 0px 200px 0px;
     background-color: var(--footer-color);
 }
 
@@ -181,8 +182,7 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-    padding: 200px 0px 30px 0px;
-    margin: 0;
+    margin: 0px 0px 30px 0px;
 }
 
 .hero__button {
@@ -200,6 +200,8 @@ ul {
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-out;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero__button:hover, .hero__button:focus {
@@ -217,6 +219,14 @@ ul {
 
 .hilites__main-title {
     display: none;
+}
+
+.hilites__list {
+    display: flex;
+}
+
+.hilites__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .hilites__title {
@@ -245,14 +255,41 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
-    padding: 94px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
     margin: 0;
+}
+
+.tasks__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+
 }
 
 /* Team================================ */
 
 .team__section {
     background-color: var(--grey-color);
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__item {
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__img {
+    display: block;
+}
+
+.team__card {
+    padding: 30px 0;
+    
 }
 
 .team__member {
@@ -262,7 +299,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
-    margin: 30px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
 
 }
 
