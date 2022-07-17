@@ -76,7 +76,7 @@ ul {
 
 .header__container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
     justify-content: space-between;
@@ -84,7 +84,7 @@ ul {
 
 .header__nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .header__nav-list {
@@ -94,6 +94,7 @@ ul {
 
 .header__contact-list {
     display: flex;
+    
 }
 
 
@@ -102,7 +103,7 @@ ul {
     font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 119%;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--acent-color);
     margin-right: 93px;
@@ -126,7 +127,7 @@ ul {
 .header__nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--titles-color);
     
@@ -156,7 +157,7 @@ ul {
 .header__contact-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--text-color);
 
@@ -177,7 +178,7 @@ ul {
 .hero__title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -196,7 +197,7 @@ ul {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-out;
@@ -225,6 +226,10 @@ ul {
     display: flex;
 }
 
+.hilites__item {
+    width: 270px;
+}
+
 .hilites__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -232,7 +237,7 @@ ul {
 .hilites__title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--titles-color);
@@ -240,7 +245,7 @@ ul {
 }
 
 .hilites__par {
-    line-height: 171%;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--text-color);
    
@@ -251,12 +256,11 @@ ul {
 .titles {
     font-weight: 700;
     font-size: 36px;
-    line-height: 116%;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
-    padding: 0px 0px 50px 0px;
-    margin: 0;
+    margin: 0px 0px 50px 0px;
 }
 
 .tasks__list {
@@ -295,7 +299,7 @@ ul {
 .team__member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 119%;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
@@ -305,7 +309,7 @@ ul {
 
 .team__member-position {
     font-size: 16px;
-    line-height: 119%;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -323,15 +327,25 @@ ul {
     color: var(--white-color);
 }
 
+.footer__logo {
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+}
+
 .footer__logo:hover *, .footer__logo:focus * {
     color: var(--acent-color);
+}
+
+.footer__item:not(:last-child) {
+
+    margin-bottom: 9px;
 }
 
 .footer__contact {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -369,7 +383,7 @@ ul {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titles-color);
@@ -397,8 +411,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 30px;
-    row-gap: 30px;
+    gap: 30px;
+    flex-basis: calc((100% - 60px) / 3);
     
 }
 
@@ -418,7 +432,7 @@ ul {
 .works__title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--titles-color);
     margin: 0px 0px 4px 0px;
@@ -427,7 +441,7 @@ ul {
 
 .works__text {
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--text-color);
     
